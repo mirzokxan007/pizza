@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Roboto&family=Rubik+Microbe&display=swap");
+body {
+  font-family: "Manrope", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik Microbe", cursive;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.right div {
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+  padding-left: 160px;
+}
+
+.middle {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: beige;
+  border-radius: 20px;
+  padding: 20px;
+}
+.middle h2 {
+  font-size: 1rem;
+}
+
+.obwi {
+  margin-block: 50px;
+  text-align: center;
+}
+
+.pomidor {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2);
+  transform: rotate(20deg);
+  top: 200px;
+  left: 715px;
+}
+
+.zaytun {
+  position: absolute;
+  top: 205px;
+  left: 720px;
+}
+
+.img1 {
+  padding: 8px;
+}
+
+.ketchup {
+  position: absolute;
+  display: grid;
+  top: 200px;
+  left: 700px;
+}
+
+.mayanez {
+  position: absolute;
+  display: grid;
+  top: 210px;
+  left: 700px;
+}
+
+.kolbasa {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2);
+  transform: rotate(40deg);
+  top: 200px;
+  left: 715px;
+}
+
+.bodring {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2);
+  transform: rotate(60deg);
+  top: 200px;
+  left: 715px;
+}
+
+.qoziqorin {
+  position: absolute;
+  top: 215px;
+  left: 725px;
+}
+
+.cheese {
+  position: absolute;
+  top: 215px;
+  left: 725px;
+}/*# sourceMappingURL=app.css.map */
